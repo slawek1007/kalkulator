@@ -10,6 +10,16 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            while (true)
+            {
+                Console.WriteLine("0. Exit");
+                Console.WriteLine("1. Add");
+                Console.WriteLine("2. Diff");
+
+                int option = Convert.ToInt32(Console.ReadLine());
+
+                if (option == 0) break;
+            }
         }
     }
 }
