@@ -12,13 +12,11 @@ namespace ConsoleApp1
         {
             while (true)
             {
-                Console.WriteLine("0. Exit");
-                Console.WriteLine("1. Add");
-                Console.WriteLine("2. Diff");
-
                 int option = Convert.ToInt32(Console.ReadLine());
-
+                Console.WriteLine("0. Exit");
                 if (option == 0) break;
+                Console.WriteLine("2. DIFF");
+                Console.WriteLine("1. ADD");
             }
         }
     }
