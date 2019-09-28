@@ -16,6 +16,7 @@ namespace ConsoleApp1
                 Console.WriteLine("1. Add");
                 Console.WriteLine("2. Diff");
                 Console.WriteLine("3. Multiply");
+                Console.WriteLine("4. Power");
                 int option = Convert.ToInt32(Console.ReadLine());
 
                 if (option == 0) break;
